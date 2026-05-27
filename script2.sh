@@ -50,13 +50,3 @@ grep -n "$PALABRA" fichero1.txt fichero2.txt >> "$RESUMEN"
 echo
 echo "=== Contenido del resumen ==="
 cat "$RESUMEN"
-
-echo
-echo "=== Añadiendo cambios al repositorio Git ==="
-
-git add fichero1.txt fichero2.txt "$RESUMEN"
-
-echo
-echo "=== Mostrando estado final del repositorio ==="
-
-git status

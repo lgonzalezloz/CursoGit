@@ -26,13 +26,3 @@ También contiene varias líneas.
 Estamos practicando comandos de Linux.
 Este fichero será analizado por el script.
 EOF
-
-echo
-echo "=== Ficheros creados correctamente ==="
-
-ls -l fichero1.txt fichero2.txt
-
-echo
-echo "=== Estado del repositorio ==="
-
-git status
